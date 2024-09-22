@@ -1,0 +1,120 @@
+@media screen and (max-width: 1024px) {
+    /* Ajustes gerais */
+    body {
+      font-size: 0.9rem;
+    }
+  
+    /* Nome do Site */
+    .site-name h2 {
+      font-size: 2rem;
+    }
+  
+    /* Seção da Equipe */
+    .team {
+      padding: 2rem;
+    }
+  
+    .cards {
+      flex-direction: column;
+    }
+  
+    .card {
+      width: 100%;
+      margin-bottom: 2rem;
+    }
+  
+    /* Sobre o Projeto */
+    .about {
+      padding: 2rem;
+    }
+  }
+@media screen and (max-width: 730px) {
+    .menu {
+        padding: 1.5rem 4rem;
+    }
+    .lista-itens {
+        display: none;
+    }
+    .login-button {
+        display: none;
+    }
+    .mobile-menu-icon {
+        display: block;
+    }
+    .mobile-menu-icon i {
+        font-size: 2.15rem;
+    }
+    .mobile-menu-icon button {
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+    }
+    .menu-mobile ul {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 1rem;
+        margin-left: 2rem;
+    }
+    .menu-mobile .lista-itens {
+        display: block;
+        padding-top: 1.2rem;
+    }
+    .menu-mobile .login-button {
+        display: block;
+        padding: 1rem 2rem;
+    }
+    .menu-mobile .login-button button {
+        width: 100%;
+    }
+    .open {
+        display: block;
+    }
+     /* Ajustes para dispositivos menores */
+  
+  /* Nome do Site */
+  .site-name h2 {
+    font-size: 1.5rem;
+  }
+
+  .site-name p {
+    font-size: 1rem;
+  }
+
+  /* Seção da Equipe */
+  .team {
+    padding: 1.5rem;
+  }
+
+  .card {
+    width: 90%;
+    margin: 1rem auto;
+  }
+
+  .card img {
+    width: 80px;
+    height: 80px;
+  }
+
+  .card h3 {
+    font-size: 1rem;
+  }
+
+  /* Sobre o Projeto */
+  .about {
+    padding: 1.5rem;
+  }
+
+  .about h2 {
+    font-size: 1.5rem;
+  }
+
+  .about p {
+    font-size: 1rem;
+  }
+
+  /* Rodapé */
+  .footer {
+    padding: 1.5rem;
+  }
+}

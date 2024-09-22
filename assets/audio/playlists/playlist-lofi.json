@@ -1,0 +1,21 @@
+{
+    "name": "Lofi Playlist",
+    "tracks": [
+        {
+            "title": "chill-lofi",
+            "src": "assets/audio/lofi/chill-lofi.mp3"
+        },
+        {
+            "title": "garden-vibes-lofi",
+            "src": "assets/audio/lofi/garden-vibes-lofi.mp3"
+        },
+        {
+            "title": "lofi-vibes",
+            "src": "/assets/audio/lofi/lofi-vibes.mp3"
+        },
+        {
+            "title": "lofi-zombies-lofi",
+            "src": "/assets/audio/lofi/zombies-lofi.mp3"
+        }
+    ]
+}

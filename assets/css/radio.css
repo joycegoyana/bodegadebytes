@@ -1,0 +1,83 @@
+.floating-modal {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    width: 300px;
+    background-color: #1e1e1e; 
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5); 
+    z-index: 999;
+}
+
+.modal-content {
+    color: #f0f0f0; 
+    text-align: center;
+}
+
+.close {
+    color: #f0f0f0; 
+    float: right;
+    font-size: 22px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.close:hover, .close:focus {
+    color: #bbb;
+}
+
+audio {
+    width: 100%;
+    background-color: #1e1e1e;
+    border-radius: 8px; 
+    padding: 10px;
+    color: #f0f0f0; 
+}
+
+.controls {
+    margin-top: 10px;
+}
+
+button {
+    background-color: #3a3a3a; 
+    border: none;
+    color: #f0f0f0;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555; 
+}
+
+
+audio {
+    width: 100%;
+    background-color: #1e1e1e;
+    border-radius: 8px;
+    padding: 10px;
+    color: #E5D9F2;
+}
+
+audio::-webkit-media-controls-panel {
+    background-color: #1e1e1e;
+}
+
+audio::-webkit-media-controls-play-button,
+audio::-webkit-media-controls-current-time-display,
+audio::-webkit-media-controls-time-remaining-display {
+    color: #f0f0f0;
+}
+
+
+audio::-webkit-media-controls-timeline {
+    background-color: #444;
+}
+
+
+audio::-webkit-media-controls-volume-slider {
+    background-color: #444;
+}

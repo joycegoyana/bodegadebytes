@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./assets/css/reset.css">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="./assets/css/responsive.css">
+  <link rel="stylesheet" href="./assets/css/radio.css">
+  <link href="https://unpkg.com/nes.icons@latest/css/nes-icons.min.css" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap"
+    rel="stylesheet">
+  <title>Document</title>
+</head>
+
+<body>
+  <header>
+    <nav class="menu">
+      <div class="logo-tipo">
+        <img src="./assets/img/cangaceiro_rezador_preview" alt="">
+      </div>
+      <div class="lista">
+        <ul>
+          <li class="lista-itens"><a href="#" class="lista-link">inicio</a></li>
+          <li class="lista-itens"><a href="#" class="lista-link">envolvidos</a></li>
+          <li class="lista-itens"><a href="#" class="lista-link">sobre</a></li>
+          <li class="lista-itens"><a href="#" class="lista-link">Fork</a></li>
+        </ul>
+      </div>
+      <div class="login-button">
+        <button><a href="#">Login</a></button>
+      </div>
+      <div class="mobile-menu-icon">
+        <button onclick="menu_show()">
+          <i class="nes-icon bars"></i>
+        </button>
+      </div>
+    </nav>
+    <div class="menu-mobile">
+      <ul>
+        <li class="lista-itens"><a href="#" class="lista-link">inicio</a></li>
+        <li class="lista-itens"><a href="#" class="lista-link">envolvidos</a></li>
+        <li class="lista-itens"><a href="#" class="lista-link">sobre</a></li>
+        <li class="lista-itens"><a href="#" class="lista-link">Fork</a></li>
+      </ul>
+      <div class="login-button">
+        <button><a href="#">Login</a></button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Nome do Site -->
+  <section class="site-name">
+    <h1 aria-label="Bodega de Bytes">
+      Bodega de&nbsp;<span class="typewriter"></span>
+    </h1>
+  </section>
+
+  <!-- Cards da Equipe -->
+  <section class="team">
+    <h2>Conheça a Equipe</h2>
+    <div class="cards">
+      <div class="card">
+        <img src="link-da-imagem" alt="Integrante 1">
+        <h3>Nome Integrante 1</h3>
+        <a href="https://github.com/integrante1" target="_blank">GitHub</a>
+      </div>
+      <div class="card">
+        <img src="link-da-imagem" alt="Integrante 2">
+        <h3>Nome Integrante 2</h3>
+        <a href="https://github.com/integrante2" target="_blank">GitHub</a>
+      </div>
+      <div class="card">
+        <img src="link-da-imagem" alt="Integrante 3">
+        <h3>Nome Integrante 3</h3>
+        <a href="https://github.com/integrante3" target="_blank">GitHub</a>
+      </div>
+      <div class="card">
+        <img src="./assets/img/108343702.jpeg" alt="Integrante 4">
+        <h3>Marcelo</h3>
+        <a href="https://github.com/integrante4" target="_blank">GitHub</a>
+      </div>
+      <div class="card">
+        <img src="link-da-imagem" alt="Integrante 5">
+        <h3>Nome Integrante 5</h3>
+        <a href="https://github.com/integrante5" target="_blank">GitHub</a>
+      </div>
+    </div>
+  </section>
+
+  <div class="about-container">
+    <section class="about">
+      <h2>Sobre o Projeto</h2>
+      <p>
+        Nosso objetivo é descomplicar o universo da TI, trazendo informações acessíveis, atualizadas e relevantes para
+        profissionais, estudantes e entusiastas. Seja você um desenvolvedor, analista de sistemas, especialista em
+        segurança, ou apenas alguém interessado no que há de mais novo no mundo tecnológico, estamos aqui para ajudá-lo
+        a navegar por esse universo.
+      </p>
+    </section>
+    <section class="about-image">
+      <img src="./assets/img/undraw_google_docs_re_evm3.svg" alt="Imagem sobre o projeto">
+    </section>
+  </div>
+  <div id="radioModal" class="modal floating-modal">
+    <div class="modal-content">
+      <div id="customPlayer">
+        <div class="track">
+          <span id="trackTitle">Track Title</span>
+        </div>
+        <div class="buttons-track">
+          <button  class="nes-icon size-2x caret-left" id="prevBtn"></button>
+          <button class="nes-icon size-2x play" id="playPauseBtn"></button>
+          <button class="nes-icon size-2x caret-right" id="nextBtn"></button>
+        </div>
+      </div>
+
+      <audio id="audioPlayer"></audio>
+
+    </div>
+  </div>
+  <footer class="footer">
+    <i class="nes-icon size-2x github"></i>
+    </i>
+    <p>Esse projeto é open-source.
+      <a href="link-do-fork" target="_blank">Faça um Fork!</a>
+    </p>
+    <img src="./assets/img/nyan-cat.gif" alt="" width="150px">
+  </footer>
+
+  <script src="/assets/js/script.js"></script>
+  <script src="/assets/js/radio.js"></script>
+</body>
+
+</html>
